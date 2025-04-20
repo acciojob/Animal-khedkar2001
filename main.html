@@ -1,16 +1,55 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Animal Photo Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      text-align: center;
+      padding: 20px;
+    }
+    #animal-photos {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    #photo-heading {
+      font-size: 2.5em;
+      margin-bottom: 30px;
+    }
+    .animal-img {
+      width: 250px;
+      height: auto;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <div id="animal-photos">
+    <h1 id="photo-heading">Animal Photos</h1>
+    <div class="gallery">
+      <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/camel.jpg" alt="Camel" class="animal-img">
+      <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/cheetah.jpg" alt="Cheetah" class="animal-img">
+      <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/elephant.jpg" alt="Elephant" class="animal-img">
+      <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/gorilla.jpg" alt="Gorilla" class="animal-img">
+      <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/koala.jpg" alt="Koala" class="animal-img">
+      <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/lion.jpg" alt="Lion" class="animal-img">
+      <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/polar_bear.jpg" alt="Polar Bear" class="animal-img">
+      <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/tiger.jpg" alt="Tiger" class="animal-img">
+      <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/wolf.jpg" alt="Wolf" class="animal-img">
+    </div>
+  </div>
 
 </body>
-
 </html>
